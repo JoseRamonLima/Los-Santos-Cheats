@@ -1,0 +1,90 @@
+body {
+    background-color: #2B2C33;
+}
+
+.selec {
+  padding: 20px 20px;
+  border-radius: 20px;
+  background-color: #1D1D1D;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+img {
+  margin: center;
+}
+
+h3 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+p {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Afacad Flux",
+  sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+.container div {
+  margin: 5px 0;
+}
+
+.selec {
+    display: flex;
+    align-items: center; /* Alinha o texto verticalmente ao centro da imagem */
+}
+
+.selec img {
+    max-width: 150px; /* Defina o tamanho da imagem conforme necessário */
+    margin-right: 15px; /* Espaçamento entre a imagem e o texto */
+}
+
+.selec h3 {
+    margin: 0; /* Remove margem para manter o texto próximo à imagem */
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info button {
+  margin: 10px 0;
+  width: 200px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info button {
+  margin: 10px 0;
+  width: 200px;
+}
+
+/* Customização Div */
+
+.info {
+  border-radius: 20px;
+  background-color: #1D1D1D;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
